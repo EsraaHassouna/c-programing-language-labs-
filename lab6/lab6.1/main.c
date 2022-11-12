@@ -12,7 +12,7 @@ int main()
     int *ptr=arr[size];
 
     for (i=0;i<size;i++){
-        displayArray(*arr);
+        displayArray(arr);
     }
     return 0;
 }

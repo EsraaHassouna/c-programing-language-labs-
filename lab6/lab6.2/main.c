@@ -6,7 +6,7 @@ int power(int x, int powerOf);
 int main()
 {
     int no=1;
-    int powerOf=2;
+    int powerOf=0;
 
     printf("enter the number to git it's power");
     scanf("%d",&no);
@@ -20,8 +20,9 @@ int main()
 
 int power(int x, int powerOf){
 
-    while(powerOf > 0){
+    if (powerOf > 1){
         x*=power(x,powerOf-1);
     }
+    else
     return x;
 }
