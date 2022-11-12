@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1668296200 source:f:\iti\c language\lab4\lab49\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mylib.h"
+
+1667939051 f:\iti\c language\lab4\lab49\mylib.h
+	<windows.h>
+
+1667984133 source:f:\iti\c language\lab4\lab49\mylib.c
+	"mylib.h"
+
