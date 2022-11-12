@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "mylib.h"
-
+//Magic box
 void gotoxy(int x, int y)
 {
     COORD coordinate;
@@ -20,27 +20,33 @@ int main()
     //enter the size of the Magic Box
     printf("\n");
 
-    int i=0;
+    int i=0,number=1;
     col=(size+1)/2;
+    gotoxy(col,row);
+    printf("%d",number);
 
-printf("%d",gotoxy(col,row));
     while(i<=size){
       //  printf();
         if(i%size==1){
             row++;
-            printf("%d",gotoxy(col,row));
+            number++;
+            gotoxy(col,row);
+            printf("%d",number);
         }
         else if(i%size==0){
             row--;
             col--;
-            printf("%d",gotoxy(col,row));
-            if (row==0){
-                row=size;
-
-            }if (col==0){
-                col=size;
-            }
+            number++;
+            gotoxy(col,row);
+            printf("%d",number);
         }
+        if (row==0){
+                row=size;
+        }
+        if (col==0){
+                col=size;
+        }
+
 
     }
         return 0;
