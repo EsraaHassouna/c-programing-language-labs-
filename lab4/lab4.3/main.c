@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//extended or not extended key
+
 int main()
 {
 char c=getch();
