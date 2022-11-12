@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #define size 4
 
-void scanArray(int *ptr);
-void displayArray(int *ptr);
-
 int main()
 {
     int i=0;
