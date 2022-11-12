@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667823496 source:f:\iti\c language\texteditor\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1667823375 source:c:\users\sheha\downloads\mylibrary.c
+	"mylibrary.h"
+
+1667823376 c:\users\sheha\downloads\mylibrary.h
+	<windows.h>
+
